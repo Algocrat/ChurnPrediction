@@ -1,0 +1,13 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-width: 85%;
+}
+
+.login{
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}

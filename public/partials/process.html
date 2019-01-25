@@ -1,0 +1,27 @@
+
+<div class="container fill vertical-center">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div ng-controller="processCtrl" class="center-block text-center">
+                    <div class="center-block text-center">
+                        <div ui-grid="gridOptions" ui-grid-edit class="grid center-block text-center"></div>
+                        <div ng-repeat="record in gridOptions.data">
+                            {{record}}
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="center-block text-center">
+                        <button class="btn btn-theme btn-lg" ng-click="processData()"><i class="fa fa-cogs fa-2x"></i></button>
+                    </div>
+                    <br/>
+                    <div class="alert alert-{{alert.class}}" ng-model="alert.message" ng-show="alert.message">
+                        {{alert.message}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

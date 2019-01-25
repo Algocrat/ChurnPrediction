@@ -1,0 +1,7 @@
+New log file opened at Fri Jan 25 09:24:32 EST 2019 by 30897@algocrat
+Taking next connection to: 46159
+New client attempting to connect on port: 33398-46159
+  Address = /192.168.86.159:46159
+This client on port 33398 has uuid 8c639a5f-b3d4-4ef1-bc9f-64c9476d8574 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-8c639a5f-b3d4-4ef1-bc9f-64c9476d8574
+Taking next connection to: 46159
